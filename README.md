@@ -28,7 +28,7 @@ guestApp/
 
 ## Prerequisites
 
-**- Go: Version 1.18 or later (for local development).
+- ** Go: Version 1.18 or later (for local development).
 Docker: For building and running the containerized app.
 Git: For version control and pushing to GitHub.
 Fly.io Account: For free cloud hosting (sign up at fly.io).
