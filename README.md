@@ -1,7 +1,7 @@
 # Guestbook Application
 ## Overview
 The Guestbook is a simple web application written in Go (Golang) that allows users to submit and view entries via a web interface. It serves a frontend (HTML, CSS, JavaScript) and optionally connects to a Redis database to store entries persistently. The application is containerized with Docker and can be deployed on Fly.io or in a Kubernetes environment (e.g., IBM Cloud Kubernetes Service). This project includes two versions: v1 and v2, with v2 featuring an updated title (e.g., "Lavanya's Guestbook - v2") and adjusted resource limits.
-Features
+## Features
 
 Submit and display guestbook entries through a web UI.
 Built with Go for the backend, serving static assets (index.html, script.js, style.css, jquery.min.js).
@@ -10,7 +10,7 @@ Containerized with Docker for easy deployment.
 Deployable on Fly.io (free tier) or Kubernetes.
 Supports Kubernetes features like rolling updates and autoscaling.
 
-Repository Structure
+## Repository Structure
 guestApp/
 ├── Dockerfile        # Docker configuration for building the Go app
 ├── main.go           # Main Go application code
@@ -26,9 +26,9 @@ guestApp/
 ├── LICENSE           # License file
 └── README.md         # This file
 
-Prerequisites
+## Prerequisites
 
-Go: Version 1.18 or later (for local development).
+**- Go: Version 1.18 or later (for local development).
 Docker: For building and running the containerized app.
 Git: For version control and pushing to GitHub.
 Fly.io Account: For free cloud hosting (sign up at fly.io).
@@ -37,7 +37,7 @@ Redis (optional): For persistent storage (e.g., Upstash free tier or Fly.io Redi
 Kubernetes CLI (kubectl): For lab environment deployment (Skills Network or IBM Cloud).
 IBM Cloud CLI: For lab environment (if using IBM Cloud Container Registry).
 
-Setup Instructions
+## Setup Instructions
 Local Development
 
 Clone the Repository:
@@ -258,7 +258,7 @@ Use the Skills Network Toolbox to launch the app on port 3000.
 
 
 
-Troubleshooting
+## Troubleshooting
 
 Fly.io Deployment Fails:
 Ensure Dockerfile, main.go, and go.mod are in the repo root.
