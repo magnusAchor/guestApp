@@ -28,14 +28,14 @@ guestApp/
 
 ## Prerequisites
 
-- ** Go: Version 1.18 or later (for local development).
-Docker: For building and running the containerized app.
-Git: For version control and pushing to GitHub.
-Fly.io Account: For free cloud hosting (sign up at fly.io).
-GitHub Account: For hosting the guestApp repository.
-Redis (optional): For persistent storage (e.g., Upstash free tier or Fly.io Redis app).
-Kubernetes CLI (kubectl): For lab environment deployment (Skills Network or IBM Cloud).
-IBM Cloud CLI: For lab environment (if using IBM Cloud Container Registry).
+- **Go: Version 1.18 or later (for local development).
+- **Docker: For building and running the containerized app.
+- **Git: For version control and pushing to GitHub.
+- **Fly.io Account: For free cloud hosting (sign up at fly.io).
+- **GitHub Account: For hosting the guestApp repository.
+- **Redis (optional): For persistent storage (e.g., Upstash free tier or Fly.io Redis app).
+- **Kubernetes CLI (kubectl): For lab environment deployment (Skills Network or IBM Cloud).
+- **IBM Cloud CLI: For lab environment (if using IBM Cloud Container Registry).
 
 ## Setup Instructions
 Local Development
