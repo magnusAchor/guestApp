@@ -1,5 +1,5 @@
-#Guestbook Application
-Overview
+# Guestbook Application
+## Overview
 The Guestbook is a simple web application written in Go (Golang) that allows users to submit and view entries via a web interface. It serves a frontend (HTML, CSS, JavaScript) and optionally connects to a Redis database to store entries persistently. The application is containerized with Docker and can be deployed on Fly.io or in a Kubernetes environment (e.g., IBM Cloud Kubernetes Service). This project includes two versions: v1 and v2, with v2 featuring an updated title (e.g., "Lavanya's Guestbook - v2") and adjusted resource limits.
 Features
 
